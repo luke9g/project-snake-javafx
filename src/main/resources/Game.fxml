@@ -1,0 +1,8 @@
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:controller="ControllerGame" onKeyPressed="#handleKeyPressed"
+            xmlns:fx="http://javafx.com/fxml"
+            stylesheets="style.css">
+    <Canvas fx:id="canvas"/>
+</AnchorPane>

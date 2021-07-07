@@ -1,0 +1,141 @@
+/* General ---------------------------------------------------------------------------------------------------------- */
+.background {
+    -fx-background-color: #F7FFF7;
+    -fx-background: #F7FFF7;
+}
+
+.btn {
+    -fx-background-color: #1A535C;
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-cursor: hand;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.4), 8, 0, 4, 4);
+}
+
+.btn-big {
+    -fx-pref-width: 200px;
+    -fx-padding: 20px;
+    -fx-font-size: 20px;
+}
+
+.btn-medium {
+    -fx-pref-width: 160px;
+    -fx-padding: 18px;
+    -fx-font-size: 18px;
+}
+
+.btn-small {
+    -fx-pref-width: 120px;
+    -fx-padding: 14px;
+    -fx-font-size: 14px;
+}
+
+.btn-red {
+    -fx-text-fill: #FF6B6B;
+}
+
+.btn-yellow {
+    -fx-text-fill: #FFE66D;
+}
+
+.btn-mint {
+    -fx-text-fill: #F7FFF7;
+}
+
+.title {
+    -fx-font-size: 80px;
+    -fx-text-fill: #4ECDC4;
+    -fx-font-weight: bold;
+    -fx-effect: dropshadow(three-pass-box, rgba(26, 83, 92, 0.2), 8, 0, 4, 4);
+}
+
+.title-big {
+    -fx-font-size: 90px;
+}
+
+.title-medium {
+    -fx-font-size: 34px;
+}
+
+.title-small {
+    -fx-font-size: 18px;
+    -fx-text-fill: #1A535C;
+}
+
+
+/* Settings Menu ---------------------------------------------------------------------------------------------------- */
+.slider {
+    -fx-pref-width: 350px;
+    -fx-cursor: hand;
+    -fx-font-size: 18px;
+    -fx-text-fill: #1A535C;
+}
+
+.checkbox {
+    -fx-cursor: hand;
+}
+
+
+/* Save Prompt ------------------------------------------------------------------------------------------------------ */
+
+.error-text {
+    -fx-font-size: 13px;
+    -fx-text-fill: red;
+}
+
+.text-field {
+    -fx-pref-width: 200px;
+    -fx-pref-height: 30px;
+    -fx-font-size: 18px;
+    -fx-text-fill: #1A535C;
+}
+
+
+/* Leaderboard ------------------------------------------------------------------------------------------------------ */
+
+.table {
+    -fx-padding: 0 25px 0 25px;
+}
+
+.entry-text {
+    -fx-font-size: 14px;
+    -fx-text-fill: #1A535C;
+}
+
+.row-highlighted > .entry-text {
+    -fx-font-weight: bold;
+    -fx-text-fill: #FFE66D;
+}
+
+.row {
+    -fx-border-style: hidden hidden solid hidden;
+    -fx-border-color: rgba(0, 61, 0, 0.5);
+    -fx-padding: 2px 0 2px 0;
+}
+
+.row-bold {
+    -fx-font-weight: bold;
+}
+
+.row-highlighted {
+    -fx-background-color: #1A535C;
+}
+
+.row-last {
+    -fx-border-style: hidden;
+}
+
+.row-first > .entry-text {
+    -fx-font-size: 19px;
+    -fx-font-weight: bold;
+}
+
+.row-second > .entry-text {
+    -fx-font-size: 17px;
+    -fx-font-weight: bold;
+}
+
+.row-third > .entry-text {
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}

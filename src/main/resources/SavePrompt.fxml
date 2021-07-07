@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="ControllerSavePrompt"
+      stylesheets="style.css"
+      styleClass="background"
+      onKeyPressed="#handleKeyPressed">
+    <center>
+        <VBox alignment="CENTER">
+            <Label styleClass="title, title-medium" fx:id="scoreInfo" text="Game over!">
+                <VBox.margin>
+                    <Insets><bottom>15</bottom><top>30</top></Insets>
+                </VBox.margin>
+            </Label>
+            <Label styleClass="title, title-small" text="Do you want to save your result?">
+                <VBox.margin>
+                    <Insets><bottom>15</bottom></Insets>
+                </VBox.margin>
+            </Label>
+            <HBox alignment="CENTER">
+                <Label styleClass="title, title-small" text="Your name">
+                    <HBox.margin>
+                        <Insets><right>15</right></Insets>
+                    </HBox.margin>
+                </Label>
+                <TextField styleClass="text-field" fx:id="username"/>
+                <VBox.margin>
+                    <Insets><bottom>5</bottom></Insets>
+                </VBox.margin>
+            </HBox>
+            <Label styleClass="error-text" fx:id="errorText">
+                <VBox.margin>
+                    <Insets><bottom>25</bottom></Insets>
+                </VBox.margin>
+            </Label>
+            <Button styleClass="btn, btn-medium, btn-yellow" text="Save!" onMouseClicked="#saveResults"/>
+        </VBox>
+    </center>
+    <bottom>
+        <BorderPane>
+            <left>
+                <Button styleClass="btn, btn-small, btn-red" text="Main Menu" onMouseClicked="#goToMainMenu">
+                    <BorderPane.margin>
+                        <Insets><left>20</left><bottom>20</bottom></Insets>
+                    </BorderPane.margin>
+                </Button>
+            </left>
+            <right>
+                <Button styleClass="btn, btn-small, btn-mint" text="Exit" onMouseClicked="#exit">
+                    <BorderPane.margin>
+                        <Insets><right>20</right><bottom>20</bottom></Insets>
+                    </BorderPane.margin>
+                </Button>
+            </right>
+        </BorderPane>
+    </bottom>
+</BorderPane>
