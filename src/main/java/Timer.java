@@ -32,6 +32,10 @@ public class Timer extends Thread {
         return gameLoops;
     }
 
+    public void resetGameLoops() {
+        gameLoops = 0;
+    }
+
     @Override
     public void run() {
         while (!isInterrupted()) {

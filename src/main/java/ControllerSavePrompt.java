@@ -27,6 +27,7 @@ public class ControllerSavePrompt {
     private void calculateFinalScore() {
         double d = Board.score * App.timer.getGameLoops() * 10.0 / (GameSettings.rowsCount * GameSettings.colsCount);
         finalScore = Math.round(d * 10) / 10.0;
+        App.timer.resetGameLoops();
     }
 
     public void saveResults() throws IOException {
