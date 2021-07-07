@@ -27,9 +27,9 @@ _Make sure you have Java 11 installed on your computer_
 * yellow - worth 1 point, decrease length of the snake by 1 unit (yellow food spawns rarely)
 #### Scoring
 * player's final score is calculated based on the following formula:
-  <br>
+  <br><br>
   <img src="https://latex.codecogs.com/svg.latex?finalScore&space;=&space;\frac{eatenFood&space;\cdot&space;time&space;\cdot&space;10}{boardSize}"/>
-  <br>
+  <br><br>
   where `boardSize` is the number of board cells, and `time` is measured by game loops (1 loop per ~150 ms)
 
 <hr>
