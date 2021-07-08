@@ -2,7 +2,7 @@
 
 My implementation of the popular game "Snake", where the player controls a growing line of squares (aka "snake"). Main 
 goal of the game is to collect points and avoid hitting yourself, or the walls of board. The game rewards those players
-who collect points as fast as possible (in the least number of moves), see the scoring formula below.
+who play on smaller boards (because they must be more careful), see the scoring formula below.
 
 The game was created as a final student project at the end of semester II. The project's functional requirements are 
 described in `PROJECT_REQUIREMENTS.png` file.
